@@ -87,7 +87,7 @@ header nav ul li a {
   border-radius: 1rem;
   box-shadow: var(--shadow);
   border: 1px solid var(--line);
-  max-width: 400px;   /* mažesnė, elegantiška kortelė */
+  max-width: 400px;
   width: 100%;
   height: auto;
   padding: 1.2rem;

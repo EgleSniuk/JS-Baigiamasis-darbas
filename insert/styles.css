@@ -80,7 +80,7 @@ header nav ul li a {
   border-radius: 1rem;
   box-shadow: var(--shadow);
   border: 1px solid var(--line);
-  max-width: 480px;   /* toks pat dydis kaip komodos kortelė */
+  max-width: 480px; 
   width: 100%;
 }
 
