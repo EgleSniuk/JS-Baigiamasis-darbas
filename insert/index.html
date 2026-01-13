@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pridėti komodą</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">PRIDĖTI KOMODĄ</div>
+
+        <nav class="nav-links">
+          <ul>
+            <li><a href="../index.html">Grįžti į katalogą</a></li>
+          </ul>
+        </nav>
+
+        <img src="../assets/burger.png" class="burger" alt="menu" />
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="form-wrapper">
+          <form id="komoda-form">
+            <label>Pavadinimas</label>
+            <input type="text" id="title" required />
+
+            <label>Kaina (€)</label>
+            <input type="number" id="price" required />
+
+            <label>Nuotraukos URL</label>
+            <input type="text" id="imgUrl" required />
+
+            <label>Aprašymas</label>
+            <textarea id="description" required></textarea>
+
+            <label>Miestas</label>
+            <select id="location" required>
+              <option value="">Pasirinkti...</option>
+              <option value="Vilnius">Vilnius</option>
+              <option value="Kaunas">Kaunas</option>
+              <option value="Klaipėda">Klaipėda</option>
+            </select>
+
+            <button type="submit">Įkelti komodą</button>
+          </form>
+
+          <p id="message"></p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2026 Komodų katalogas</p>
+      </div>
+    </footer>
+
+    <script type="module" defer src="./script.js"></script>
+  </body>
+</html>
